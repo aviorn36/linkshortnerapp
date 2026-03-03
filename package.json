@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "cleanAll": "rm -rf .next node_modules",
+    "cleanNext": "rm -rf .next"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.38.0",
