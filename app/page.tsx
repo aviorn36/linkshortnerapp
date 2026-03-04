@@ -99,11 +99,7 @@ export default function Home() {
         <p className="mb-8 text-muted-foreground">
           Join thousands of users who trust LinkShortner to manage their links.
         </p>
-        <SignedOut>
-          <SignUpButton mode="modal">
-            <Button size="lg">Create your free account</Button>
-          </SignUpButton>
-        </SignedOut>
+
         <SignedIn>
           <Button asChild size="lg">
             <Link href="/dashboard">Go to dashboard</Link>
