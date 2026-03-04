@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col gap-3 sm:flex-row">
           <SignedOut>
             <SignUpButton mode="modal">
-              <Button size="lg">Get started for free</Button>
+              <Button size="lg">Create your free account</Button>
             </SignUpButton>
             <SignInButton mode="modal">
               <Button variant="outline" size="lg">
@@ -59,7 +59,9 @@ export default function Home() {
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-secondary">
                 <Zap className="h-6 w-6" />
               </div>
-              <h3 className="text-lg font-semibold">Lightning fast redirects</h3>
+              <h3 className="text-lg font-semibold">
+                Lightning fast redirects
+              </h3>
               <p className="text-sm text-muted-foreground">
                 Our infrastructure ensures near-instant redirects so your
                 visitors never wait.
@@ -97,11 +99,7 @@ export default function Home() {
         <p className="mb-8 text-muted-foreground">
           Join thousands of users who trust LinkShortner to manage their links.
         </p>
-        <SignedOut>
-          <SignUpButton mode="modal">
-            <Button size="lg">Create your free account</Button>
-          </SignUpButton>
-        </SignedOut>
+
         <SignedIn>
           <Button asChild size="lg">
             <Link href="/dashboard">Go to dashboard</Link>
